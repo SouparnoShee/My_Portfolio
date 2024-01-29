@@ -1,0 +1,42 @@
+.project-page {
+    background: #222438;
+
+    .heading {
+        text-align: center;
+        padding: 70px 0px;
+        color: #F54555;
+        font-size: 50px;
+    }
+
+    .big-projects {
+        padding: 60px 0px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .type-head {
+            color: #F54555;
+            text-align: center;
+        }
+
+        .project-container {
+            width: 60%;
+            margin-top: 80px;
+            margin-left: 60px;
+            margin-right: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            @media (max-width: 1300px) {
+                width: 95%;
+            }
+
+
+
+        }
+    }
+}

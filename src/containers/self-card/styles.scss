@@ -1,0 +1,95 @@
+.self-card {
+    width: 450px;
+    // max-width: 80%;
+    height: 820px;
+    background: #2E3047;
+
+    @media (max-width: 1220px) {
+        width: 70%;
+    }
+
+    @media (max-width: 720px) {
+        width: 90%;
+    }
+
+    @media (max-width: 490px) {
+        height: 680px;
+    }
+
+    .head-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .head {
+            width: 90%;
+            margin: 20px 20px;
+            text-align: center;
+            height: 90px;
+            background-color: #222438;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            i {
+                color: #F54555;
+                font-size: 30px;
+            }
+
+            h3 {
+                color: #fff;
+            }
+
+        }
+
+    }
+
+    .para-one {
+        color: white;
+        font-size: 22px;
+        margin-top: 90px;
+        margin-left: 30px;
+        width: 80%;
+
+        @media (max-width: 490px) {
+            font-size: 17px;
+            margin-left: 16px;
+            margin-top: 50px;
+            width: 90%;
+        }
+    }
+
+    .para-two {
+        color: white;
+        font-size: 22px;
+        margin-top: 60px;
+        margin-left: 30px;
+        width: 80%;
+
+        @media (max-width: 490px) {
+            font-size: 17px;
+            margin-left: 16px;
+            width: 90%;
+        }
+    }
+
+    .list-skill {
+        color: #fff;
+        margin-top: 60px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li {
+            margin-left: 30px;
+            font-size: 18px;
+
+            @media (max-width: 490px) {
+                font-size: 15px;
+            }
+        }
+    }
+}

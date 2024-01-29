@@ -1,0 +1,50 @@
+.p-card {
+    width: 380px;
+    height: 320px;
+
+    @media (max-width: 970px) {
+        width: 70%;
+    }
+
+    @media (max-width: 570px) {
+        width: 100%;
+    }
+
+    background: #2E3047;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 0px 10px 0px 10px;
+    gap: 30px;
+
+    .p-icon {
+        font-size: 40px;
+        color: #F54555;
+
+    }
+
+    .p-name {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .p-description {
+        color: #A1A1A1;
+        width: 90%;
+    }
+
+    .p-button {
+        padding: 10px 20px;
+        color: #fff;
+        border: none;
+        outline: none;
+        background: #F54555;
+        border-radius: 0px 10px 0px 10px;
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+}
