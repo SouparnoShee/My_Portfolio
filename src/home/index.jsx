@@ -71,7 +71,7 @@ const index = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        I design and code web applications, specialized at reactJs, NodeJs, Mongodb, tailwindCss, SASS and many more, ove the years I have built many projects and worked in startups where I code industry level applications. scroll to know more.
+                        I design and code web applications, specialized at reactJs, NodeJs, Mongodb, tailwindCss, SASS and many more, over the years I have built many projects and worked in startups where I code industry level applications. scroll to know more.
                     </motion.p>
                     <motion.button
                         className='cv-butt'
