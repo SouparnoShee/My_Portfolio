@@ -6,6 +6,12 @@ export const ProjectData = [
         link: "https://yourfuntrip.netlify.app/"
     },
     {
+        icon: "fa-solid fa-brain",
+        name: "FlairFeeds",
+        desc: "A FullStack Social Media application, People can write, read post, edit and delete post along with like and comment on each post, made using the mern stack with the help of tailwind CSS ",
+        link: "https://flairfeeds.netlify.app",
+    },
+    {
         icon: "fa-brands fa-css3",
         name: "HawkUI",
         desc: "A minimalist css framework helps to develop websites, is made using react and has a css file to copy and then use classes as per the documentaion to style html websites.",
@@ -22,12 +28,6 @@ export const ProjectData = [
         name: "FitBeast",
         desc: "A minimalist Fitness aplication made using reactJS and ExerciseDB to make this project, in this it will showcase exercises according to muscles, equipments, bodyparts",
         link: "https://fitbeastz.netlify.app"
-    },
-    {
-        icon: "fa-solid fa-brain",
-        name: "FlairFeeds",
-        desc: "A FullStack Social Media application, People can write, read post, edit and delete post along with like and comment on each post, made using the mern stack with the help of tailwind CSS ",
-        link: "https://flairfeeds.netlify.app",
     },
     {
         icon: "fa-solid fa-person-walking",
